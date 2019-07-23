@@ -5,7 +5,7 @@
 		global $BDD;
 		if($BDD == null){
 			try{
-				$host = "mysql1004.mochahost.com";$db = "nfinic_landbreg";$user = "nfinic_msb_land";$pwd = "fwt02p6rev2u";
+				$host = "***********";$db = "**********";$user = "********";$pwd = "**********";
 				$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
 				$BDD = new PDO("mysql:host=".$host.";dbname=".$db,$user,$pwd,$pdo_options);
 				return $BDD;
